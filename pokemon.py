@@ -102,8 +102,8 @@ class Trainer:
       print(self.name + " just changed over to " + str(self.active_pokemon.name) + "!")
       return self.active_pokemon
 
-# class Charmander(Pokemon):
-  # pass
+class Charmander(Pokemon):
+  pass
 
 water_pokemon = Pokemon("Water Pokemon", 1, "Water", 100, 100, False, 0)
 fire_pokemon = Pokemon("Fire Pokemon", 1, "Fire", 100, 100, False, 0)
